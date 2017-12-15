@@ -9,14 +9,14 @@ const Header = () => (
   <div
     style={{
       background: 'rebeccapurple',
-      marginBottom: '1.45rem',
+      marginBottom: '1.45rem'
     }}
   >
     <div
       style={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        padding: '1.45rem 1.0875rem'
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -24,10 +24,10 @@ const Header = () => (
           to="/"
           style={{
             color: 'white',
-            textDecoration: 'none',
+            textDecoration: 'none'
           }}
         >
-          Gatsby
+          alaq.io
         </Link>
       </h1>
     </div>
@@ -37,10 +37,16 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Adrien Lacquemant - Software Engineer"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        {
+          name: 'description',
+          content: 'Adrien Lacquemant - Software Engineer - New York'
+        },
+        {
+          name: 'keywords',
+          content: 'engineer, developer, adrien, lacquemant, adrien lacquemant'
+        }
       ]}
     />
     <Header />
@@ -49,7 +55,7 @@ const TemplateWrapper = ({ children }) => (
         margin: '0 auto',
         maxWidth: 960,
         padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
+        paddingTop: 0
       }}
     >
       {children()}
@@ -58,7 +64,7 @@ const TemplateWrapper = ({ children }) => (
 )
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.func
 }
 
 export default TemplateWrapper
