@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+import Social from './social'
+
 import './index.css'
 
 const Header = () => (
@@ -49,7 +51,7 @@ const TemplateWrapper = ({ children }) => (
         }
       ]}
     />
-    <Header />
+    {/* <Header /> */}
     <div
       style={{
         margin: '0 auto',
@@ -59,6 +61,8 @@ const TemplateWrapper = ({ children }) => (
       }}
     >
       {children()}
+      <Social />
+      <div id="background" />
     </div>
   </div>
 )
