@@ -10,7 +10,7 @@ import './index.css'
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      // background: 'rebeccapurple',
       marginBottom: '1.45rem'
     }}
   >
@@ -25,13 +25,19 @@ const Header = () => (
         <Link
           to="/"
           style={{
-            color: 'white',
+            color: 'rgb(103, 114, 229)',
             textDecoration: 'none'
           }}
         >
           alaq.io
         </Link>
       </h1>
+      <ul className="nav-menu">
+        <li>Home</li>
+        <li>Resume</li>
+        <li>Projects</li>
+        <li>Blog</li>
+      </ul>
     </div>
   </div>
 )
@@ -51,7 +57,7 @@ const TemplateWrapper = ({ children }) => (
         }
       ]}
     />
-    {/* <Header /> */}
+    <Header />
     <div
       style={{
         margin: '0 auto',

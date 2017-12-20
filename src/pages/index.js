@@ -30,18 +30,17 @@ const IndexPage = () => (
           className="inner"
           dangerouslySetInnerHTML={{ __html: 'alaq.io' }}
         /> */}
-        <div className="text-right">
-          <h2>Adrien Lacquemant</h2>
-          <h3>Software Engineer</h3>
-          <p>
-            I am a 🇫🇷 software engineer based in New York. I like stuff. And
-            some other stuff.
-          </p>
-          <Social />
-        </div>
-        <a className="button blue-button">Hello</a>
+        <h2>Adrien Lacquemant</h2>
+        <h3>Software Engineer</h3>
+        <p>
+          I am a 🇫🇷 software engineer based in New York. I like stuff. And some
+          other stuff.
+        </p>
+        <Social />
       </div>
     </div>
+    {/* <a className="button blue-button">Hello</a>
+    <a className="button white-button">world</a> */}
   </div>
   // <div>
   //   <h1>Hi people</h1>
