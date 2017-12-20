@@ -18,7 +18,9 @@ const Header = () => (
       style={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '1.45rem 1.0875rem'
+        padding: '1.45rem 1.0875rem',
+        display: 'flex',
+        justifyContent: 'space-between'
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -33,10 +35,18 @@ const Header = () => (
         </Link>
       </h1>
       <ul className="nav-menu">
-        <li>Home</li>
-        <li>Resume</li>
-        <li>Projects</li>
-        <li>Blog</li>
+        <li>
+          <h2>Home</h2>
+        </li>
+        <li>
+          <h2>Resume</h2>
+        </li>
+        <li>
+          <h2>Projects</h2>
+        </li>
+        <li>
+          <h2>Blog</h2>
+        </li>
       </ul>
     </div>
   </div>

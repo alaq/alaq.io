@@ -76,4 +76,10 @@
 
 .nav-menu {
   list-style: none;
+  color: rgb(103, 114, 229);
+  display: flex;
+}
+
+.nav-menu li {
+  margin-left: 40px;
 }
