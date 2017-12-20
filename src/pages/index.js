@@ -8,12 +8,13 @@ const IndexPage = () => (
     <div className="card-wrap">
       <div className="image-wrap">
         <div className="mask">
+          {/* Here we have the profile picture */}
           <div
             className="profile-image"
             style={{
-              backgroundImage: `url(http://via.placeholder.com/250x250)`,
-              height: '250px',
-              width: '250px',
+              backgroundImage: `url(http://via.placeholder.com/200x200)`,
+              height: '200px',
+              width: '200px',
               borderTopLeftRadius: '50%',
               borderTopRightRadius: '50%',
               borderBottomLeftRadius: '50%',
@@ -25,11 +26,19 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="content">
-        <div
+        {/* <div
           className="inner"
           dangerouslySetInnerHTML={{ __html: 'alaq.io' }}
-        />
-        <Social />
+        /> */}
+        <div className="text-right">
+          <h2>Adrien Lacquemant</h2>
+          <h3>Software Engineer</h3>
+          <p>
+            I am a 🇫🇷 software engineer based in New York. I like stuff. And
+            some other stuff.
+          </p>
+          <Social />
+        </div>
         <a className="button blue-button">Hello</a>
       </div>
     </div>

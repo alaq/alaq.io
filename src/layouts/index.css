@@ -12,9 +12,13 @@
   border-radius: 4px;
   margin: 1em;
   padding: 1em;
-  width: 50%;
-  max-width: 650px;
+  width: 90%;
+  max-width: 750px;
   text-rendering: optimizeLegibility;
+}
+
+.content {
+  display: flex;
 }
 
 .social-icons li {
