@@ -44,15 +44,39 @@
   height: 24px;
   width: 24px;
 }
-#background {
+
+/* #background {
   content: '';
   position: absolute;
   left: 0;
   right: 0;
   top: 45vh;
-  height: 2000px;
+  height: 200px;
   background: #f6f9fc;
   transform: skew(0, -12deg);
+  z-index: -1;
+} */
+
+#rectangle-background {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 65vh;
+  height: 35vh;
+  background: #f6f9fc;
+  z-index: -1;
+}
+
+#triangle-background {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 20vw 100vw;
+  border-color: transparent transparent #f6f9fc transparent;
+  position: absolute;
+  left: 0;
+  bottom: 35vh;
   z-index: -1;
 }
 

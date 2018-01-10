@@ -78,7 +78,8 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
       <Social />
-      <div id="background" />
+      <div id="triangle-background" />
+      <div id="rectangle-background" />
     </div>
   </div>
 )
