@@ -39,6 +39,11 @@
   font-size: 24px;
 }
 
+.svg-logo {
+  color: rgb(103, 114, 229);
+  height: 24px;
+  width: 24px;
+}
 #background {
   content: '';
   position: absolute;
