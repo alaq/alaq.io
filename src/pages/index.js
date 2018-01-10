@@ -30,8 +30,8 @@ const IndexPage = () => (
           className="inner"
           dangerouslySetInnerHTML={{ __html: 'alaq.io' }}
         /> */}
-        <h2>Adrien Lacquemant</h2>
-        <h3>Software Engineer</h3>
+        <h2 style={{ marginBottom: 0 }}>Adrien Lacquemant</h2>
+        <h3 style={{ marginBottom: 10 }}>Software Engineer</h3>
         <p>
           I am a 🇫🇷 software engineer based in New York. I like stuff. And some
           other stuff.
