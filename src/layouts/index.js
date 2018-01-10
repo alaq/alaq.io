@@ -10,7 +10,6 @@ import './index.css'
 const Header = () => (
   <div
     style={{
-      // background: 'rebeccapurple',
       marginBottom: '1.45rem'
     }}
   >
@@ -72,7 +71,7 @@ const TemplateWrapper = ({ children }) => (
       style={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
+        // padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0
       }}
     >

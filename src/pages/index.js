@@ -26,10 +26,6 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="content">
-        {/* <div
-          className="inner"
-          dangerouslySetInnerHTML={{ __html: 'alaq.io' }}
-        /> */}
         <h2 style={{ marginBottom: 0 }}>Adrien Lacquemant</h2>
         <h3 style={{ marginBottom: 10 }}>Software Engineer</h3>
         <p>
